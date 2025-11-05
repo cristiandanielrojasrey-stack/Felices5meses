@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lo que hemos vivido</title>
+    <style>
+        body {
+            background-color: #ffb7e1;
+            color: #ff66b2;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            font-family: 'Brush Script MT', cursive;
+            font-size: 2.2em;
+            margin-bottom: 30px;
+        }
+
+        .galeria {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 10px;
+        }
+
+        .galeria img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+        img {
+            max-width: 150%;
+            height: auto;
+            border-radius: 5px;
+            margin-top: 8px;
+        }
+
+        .galeria img:hover {
+            transform: scale(1.05);
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 30px;
+            text-decoration: none;
+            color: #ff66b2;
+            border: 2px solid #ff66b2;
+            padding: 10px 20px;
+            border-radius: 15px;
+        }
+
+        a:hover {
+            background-color: #ff66b2;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lo que hemos vivido </h1>
+
+    <div class="galeria">
+        <!-- Aquí puedes agregar tus imágenes -->
+        <img src="c:\Users\34613\Downloads\4dc8b03d-5e9c-4549-a88d-ccecaddc4282.JPG" alt="Foto 1">
+        <img src="c:\Users\34613\Downloads\2c4d6d3e-c295-44ed-81fc-b34c66cbf3b6.JPG" alt="Foto 2">
+        <img src="c:\Users\34613\Downloads\A6C49E36-7E6C-4209-B476-7C2CF9F4CB8A.JPG" alt="Foto 3">
+        <img src="c:\Users\34613\Downloads\bec296cc-e61e-4f17-8c03-35e897558af0.JPG" alt="Foto 4">
+        <img src="c:\Users\34613\Downloads\IMG_3219.jpeg" alt="Foto 5">
+        <img src="c:\Users\34613\Downloads\IMG_3204.jpeg" alt="Foto 6">
+        <img src="c:\Users\34613\Downloads\IMG_2852.jpeg" alt="Foto 7">
+        <img src="c:\Users\34613\Downloads\DSC01835.JPEG" alt="Foto 8">
+        <img src="c:\Users\34613\Downloads\2f2e8c3b-606b-4de8-87a7-7c1ff8f83b18.JPG" alt="Foto 9">
+        <img src="c:\Users\34613\Downloads\bf5ac1e5-c264-4b88-bc91-c818fc39b4d7.JPG" alt="Foto 10">
+    </div>
+
+    <a href="index.html">Volver a la página principal</a>
+</body>
+</html>
